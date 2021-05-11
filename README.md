@@ -1,2 +1,2 @@
-# my_terminal_settings
+# MyTerminalSettings
 terminal settings.
