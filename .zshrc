@@ -129,6 +129,7 @@ RPROMPT='`rprompt-git-current-branch`'
 alias ll='ls -l'
 alias cd..='cd ..'
 
+# rbenv
 [[ -d ~/.rbenv  ]] && \
   export PATH=${HOME}/.rbenv/bin:${PATH} && \
   eval "$(rbenv init -)"
@@ -136,3 +137,11 @@ alias cd..='cd ..'
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 eval "$(rbenv init -)"
+
+# goenv
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
+export GOENV_ROOT=$HOME/.goenv
+export PATH=$GOENV_ROOT/bin:$PATH
+export PATH=$HOME/.goenv/bin:$PATH
+eval "$(goenv init -)"
