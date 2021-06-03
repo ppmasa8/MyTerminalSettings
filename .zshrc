@@ -145,3 +145,6 @@ export GOENV_ROOT=$HOME/.goenv
 export PATH=$GOENV_ROOT/bin:$PATH
 export PATH=$HOME/.goenv/bin:$PATH
 eval "$(goenv init -)"
+
+# flutter path
+export PATH="$PATH:[PATH_OF_FLUTTER_GIT_DIRECTORY]/bin"
