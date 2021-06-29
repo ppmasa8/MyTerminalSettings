@@ -46,7 +46,8 @@ noremap <c-h> <c-w><c-h>
 noremap <c-j> <c-w><c-j>
 noremap <c-k> <c-w><c-k>
 noremap <c-l> <c-w><c-l>
-
+" ピープ音を鳴らさない
+set belloff=all
 
 " Tab系
 " 不可視文字を可視化(タブが「▸-」と表示される)
