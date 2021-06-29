@@ -37,10 +37,16 @@ nnoremap j gj
 nnoremap k gk
 " シンタックスハイライトの有効化
 syntax enable
-"行頭へ移動
+" 行頭へ移動
 inoremap <C-a> <C-o>^
-"行末へ移動
+" 行末へ移動
 inoremap <C-e> <C-o>$
+" コントロールキーとhjklで分割されたウインドウ間を移動する
+noremap <c-h> <c-w><c-h>
+noremap <c-j> <c-w><c-j>
+noremap <c-k> <c-w><c-k>
+noremap <c-l> <c-w><c-l>
+
 
 " Tab系
 " 不可視文字を可視化(タブが「▸-」と表示される)
