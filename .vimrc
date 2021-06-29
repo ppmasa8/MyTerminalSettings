@@ -48,6 +48,8 @@ noremap <c-k> <c-w><c-k>
 noremap <c-l> <c-w><c-l>
 " ピープ音を鳴らさない
 set belloff=all
+" 突如効かなくなるバックスペースを有効にする
+set backspace=indent,eol,start
 
 " Tab系
 " 不可視文字を可視化(タブが「▸-」と表示される)
