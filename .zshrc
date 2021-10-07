@@ -128,6 +128,7 @@ RPROMPT='`rprompt-git-current-branch`'
 # エイリアス
 alias ll='ls -l'
 alias cd..='cd ..'
+alias goland='/usr/local/bin/goland'
 
 # rbenv
 [[ -d ~/.rbenv  ]] && \
