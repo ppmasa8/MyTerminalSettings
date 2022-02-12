@@ -1,8 +1,8 @@
-" ウィンドウの縦幅
+" Window height
 set lines=55
-" ウィンドウの横幅
+" Window width
 set columns=180
-" カラースキーム
+" Color scheme
 colorscheme iceberg
-" ダーク系のカラースキームを使う
+" Use a dark color scheme
 set background=dark
