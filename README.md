@@ -1,4 +1,4 @@
 # MyTerminalSettings
 terminal settings.
 
-- もし.vimrcを使うときは、homeディレクトリ直下に/.vim/colors/iceberg.vimを配置する必要あり。
+- If you use .vimrc, you need to put /.vim/colors/iceberg.vim directly under your home directory.
