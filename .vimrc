@@ -1,79 +1,79 @@
 " setting
-"文字コードをUFT-8に設定
+" Set character encoding to UFT-8.
 set fenc=utf-8
-" バックアップファイルを作らない
+" Don't create a backup file
 set nobackup
-" スワップファイルを作らない
+" Do not create a swap file.
 set noswapfile
-" 編集中のファイルが変更されたら自動で読み直す
+" Automatically reread the file you are editing when it is changed.
 set autoread
-" バッファが編集中でもその他のファイルを開けるように
+" Allow other files to be opened while buffers are being edited.
 set hidden
-" 入力中のコマンドをステータスに表示する
+" Display the command being entered in the status.
 set showcmd
-" 行頭へ移動
+" Move to head of line.
 inoremap <C-a> <C-o>^
-" 行末へ移動
+" Move to end of line.
 inoremap <C-e> <C-o>$
-" コントロールキーとhjklで分割されたウインドウ間を移動する
+" Use the control key and hjkl to move between split windows.
 noremap <c-h> <c-w><c-h>
 noremap <c-j> <c-w><c-j>
 noremap <c-k> <c-w><c-k>
 noremap <c-l> <c-w><c-l>
-" ピープ音を鳴らさない
+" No beep sound
 set belloff=all
-" 突如効かなくなるバックスペースを有効にする
+" Enable backspace, which suddenly stops working.
 set backspace=indent,eol,start
-" クリップボード
+" clipboard
 set clipboard=unnamed
 
-" 見た目系
-" 行番号を表示
+" apparent system
+" Display line numbers
 set number
-" 現在の行を強調表示
+" Highlight the current line
 set cursorline
-" 現在の行を強調表示（縦）
+" Highlight the current line (vertical)
 set cursorcolumn
-" 行末の1文字先までカーソルを移動できるように
+" Allow the cursor to move one character ahead of the end of the line.
 set virtualedit=onemore
-" インデントはスマートインデント
+" Indent is smart indent
 set smartindent
-" ステータスラインを常に表示
+" Always show the status line
 set laststatus=2
-" コマンドラインの補完
+" Command line completion
 set wildmode=list:longest
-" 折り返し時に表示行単位での移動できるようにする
+" Make it possible to move the display line when wrapping.
 nnoremap j gj
 nnoremap k gk
-" シンタックスハイライトの有効化
+" Enabling syntax highlighting
 syntax enable
 
 
-" Tab系
-" 不可視文字を可視化(タブが「▸-」と表示される)
+" Tab system
+" Make invisible characters visible (tabs will be displayed as "▸-")
 set list listchars=tab:\▸\-
-" Tab文字を半角スペースにする
+" Make the Tab character a half-width space.
 set expandtab
-" 行頭以外のTab文字の表示幅（スペースいくつ分）
+" Display width of Tab characters other than at the beginning of a line (in spaces)
 set tabstop=2
-" 行頭でのTab文字の表示幅
+" Display width of the Tab character at the beginning of a line
 set shiftwidth=2
 
 
-" 検索系
-" 検索文字列が小文字の場合は大文字小文字を区別なく検索する
+" search system
+" If the search string is in lowercase, the search is case-insensitive.
 set ignorecase
-" 検索文字列に大文字が含まれている場合は区別して検索する
+" Distinguish between uppercase and lowercase letters in the search string.
 set smartcase
-" 検索文字列入力時に順次対象文字列にヒットさせる
+" Hit the target strings sequentially when entering search strings.
 set incsearch
-" 検索時に最後まで行ったら最初に戻る
+" When searching, go to the end and go back to the beginning.
 set wrapscan
-" 検索語をハイライト表示
+" Highlight the first search term when you get to the end of the search.
 set hlsearch
-" ESC連打でハイライト解除
+" Press ESC repeatedly to un-highlight
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
-"色"
+" color
 colorscheme iceberg
 set background=dark
