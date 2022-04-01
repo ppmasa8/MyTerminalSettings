@@ -151,3 +151,6 @@ eval "$(goenv init -)"
 
 # flutter path
 export PATH="$PATH:[PATH_OF_FLUTTER_GIT_DIRECTORY]/bin"
+
+# add ssh-key for git
+plugins=(git ssh-agent)
