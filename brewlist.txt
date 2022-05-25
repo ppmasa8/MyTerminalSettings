@@ -1,0 +1,52 @@
+→ brew list                                                            
+==> Formulae
+aom			leptonica		nghttp2
+autoconf		libarchive		nodebrew
+awscli			libass			opencore-amr
+bdw-gc			libb2			openexr
+berkeley-db		libbluray		openjpeg
+brainfuck		libde265		openssl@1.1
+brotli			libev			opus
+c-ares			libevent		p11-kit
+ca-certificates		libffi			pcre
+cairo			libheif			pcre2
+cjson			libidn			perl
+cmocka			libidn2			pixman
+dav1d			liblqr			pkg-config
+docbook			libnghttp2		postgresql
+docbook-xsl		libogg			python@3.10
+ffmpeg			libomp			python@3.9
+flac			libpng			rav1e
+fontconfig		libpthread-stubs	rbenv
+freetype		librist			readline
+frei0r			libsamplerate		rubberband
+fribidi			libsndfile		ruby
+gdbm			libsodium		ruby-build
+gettext			libsoxr			sdl2
+ghostscript		libtasn1		shared-mime-info
+giflib			libtiff			six
+git			libtool			snappy
+glib			libunistring		speex
+gmp			libvidstab		sqlite
+gnu-getopt		libvmaf			srt
+gnutls			libvorbis		tesseract
+gobject-introspection	libvpx			theora
+goenv			libx11			tmux
+graphite2		libxau			unbound
+guile			libxcb			utf8proc
+harfbuzz		libxdmcp		vim
+heroku			libxext			webp
+heroku-node		libxrender		x264
+icu4c			libyaml			x265
+imagemagick		little-cms2		xmlto
+imath			lua			xorgproto
+jbig2dec		lz4			xvid
+jemalloc		lzo			xz
+jp2a			m4			zeromq
+jpeg			mbedtls			zimg
+jpeg-xl			mpdecimal		zsh
+krb5			ncurses			zsh-completions
+lame			nettle			zstd
+
+==> Casks
+vagrant
