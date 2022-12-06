@@ -5,3 +5,8 @@ terminal settings.
 
 ## Dir
 - ~/.zshrc
+
+## gitconfig
+```
+$ git config --global core.editor vim
+```
