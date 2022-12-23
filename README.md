@@ -10,3 +10,7 @@ terminal settings.
 ```
 $ git config --global core.editor vim
 ```
+
+## golang
+
+Don't use goenv, please download https://go.dev/dl/
