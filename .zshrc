@@ -146,3 +146,8 @@ export PATH="$PATH:[PATH_OF_FLUTTER_GIT_DIRECTORY]/bin"
 
 # add ssh-key for git
 plugins=(git ssh-agent)
+
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOROOT:$GOPATH:$GOBIN
