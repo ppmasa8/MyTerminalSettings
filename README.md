@@ -1,4 +1,6 @@
 # MyTerminalSettings
+I'm using [warp](https://www.warp.dev/) now.
+
 terminal settings.
 
 - If you use .vimrc, you need to put /.vim/colors/iceberg.vim directly under your home directory.
