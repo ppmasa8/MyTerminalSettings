@@ -1,0 +1,6 @@
+export PATH="~/.rbenv/shims:/usr/local/bin:$PATH"
+eval "$(rbenv init -)"
+
+export PATH=$PATH:/Users/mmatsuzaki/Library/Android/sdk/platform-tools
+
+ssh-add -K
